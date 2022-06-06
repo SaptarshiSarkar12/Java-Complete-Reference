@@ -15,5 +15,18 @@ Computer language innovation and development occurs for two fundamental reasons:
 
  Not long after the initial release of Java, it became obvious that Java would also be useful on the server side. The result was the servlet. A servlet is a small program that executes on the server. Just as applets dynamically extend the functionality of a web browser, servlets dynamically extend the functionality of a web server. Thus, with the advent of the servlet, Java spanned both sides of the client/server connection.
 
- Servlets are used to create dynamically generated content that is then served to the client. For example, an online store might use a servlet to look up the price for an item in a database. The price information is then used to dynamically generate a web page that is sent to the browser. Although dynamically generated content is available through mechanisms such as CGI (Common Gateway Interface), the servlet offers several advantages, including increased performance.
+ Servlets are used to create dynamically generated content that is then served to the client. For example, an online store might use a servlet to look up the price for an item in a database. The price information is then used to dynamically generate a web page that is sent to the browser. Although dynamically generated content is available through mechanisms such as **CGI (Common Gateway Interface)(In computing, Common Gateway Interface (CGI) is an interface specification that enables web servers to execute an external program, typically to process user requests)**, the servlet offers several advantages, including increased performance.
  
+## The Java Buzzwords -
+- Simple
+- Secure
+- Portable
+- Object-oriented
+- Robust
+- Multithreaded
+- Architecture-neutral
+- Interpreted
+- High performance
+- Distributed
+- Dynamic
+
