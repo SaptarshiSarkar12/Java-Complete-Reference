@@ -2,9 +2,8 @@ package Part_I;
 
 // Use varargs with standard arguments.
 class VarArgs {
-    // Here, msg is a normal parameter and v is a
-    // varargs parameter.
-    static void vaTest(String msg, int ... v) {
+    // Here, msg is a normal parameter and v is a varargs parameter.
+    static void vaTest(String msg, int ...v) { // here, 'v' is an array of type int
         System.out.print(msg + v.length +
                 " Contents: ");
         for(int x : v)
