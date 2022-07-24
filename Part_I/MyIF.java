@@ -9,4 +9,9 @@ public interface MyIF {
     default String getString() {
         return "Default String";
     }
+
+    // This is a static interface method.
+    static int getDefaultNumber() { // static interface methods are not inherited by either an implementing class or a sub-interface
+        return 0;
+    }
 }
