@@ -33,7 +33,7 @@ class RepeatAnno {
             System.out.println("Method Not Found.");
         }
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         myMeth("test", 10);
     }
 }
